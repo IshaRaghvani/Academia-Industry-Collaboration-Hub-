@@ -29,8 +29,8 @@ cache = Cache(app, config={'CACHE_TYPE': 'simple'})
 
 app.config['MAIL_SERVER']='smtp.gmail.com'
 app.config['MAIL_PORT'] = 465
-app.config['MAIL_USERNAME'] = 'hirkanihaider@gmail.com'
-app.config['MAIL_PASSWORD'] = 'hailhydra2003'
+app.config['MAIL_USERNAME'] = 'yourmailusername'
+app.config['MAIL_PASSWORD'] = 'yourmailpassword'
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
 posta = Mail(app)
